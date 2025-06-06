@@ -1,0 +1,12 @@
+{
+    "mapFile": "maps/warehouse_with_156_charge.map",
+    "agentFile": "agents/warehouse_125_4.agents",
+    "teamSize": 125,
+    "taskFile": "tasks/warehouse_125_4.task",
+    "idleComsumption": 10,
+    "activeUnloadedComsumption": 13,
+    "activeLoadedComsumption": 18,
+    "chargeEnergyPerTimestep": 226,
+    "fullEnergy": 10000,
+    "pIdle": 0.0
+}

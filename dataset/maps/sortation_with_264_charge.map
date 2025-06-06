@@ -1,0 +1,43 @@
+type octile
+height 39
+width 84
+map
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.@@
+@.................................................................................@
+@E...CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC...E@
+@....CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC....@
+@E...............................................................................E@
+@..CC..S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S..CC..@
+@E.CC.S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S.CC.E@
+@..CC..S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S..CC..@
+@E....S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S....E@
+@..CC..S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S..CC..@
+@E.CC.S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S.CC.E@
+@..CC..S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S..CC..@
+@E....S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S....E@
+@..CC..S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S..CC..@
+@E.CC.S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S.CC.E@
+@..CC..S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S..CC..@
+@E....S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S....E@
+@..CC..S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S..CC..@
+@E.CC.S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S.CC.E@
+@..CC..S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S..CC..@
+@E....S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S....E@
+@..CC..S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S..CC..@
+@E.CC.S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S.CC.E@
+@..CC..S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S..CC..@
+@E....S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S....E@
+@..CC..S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S..CC..@
+@E.CC.S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S.CC.E@
+@..CC..S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S..CC..@
+@E....S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S....E@
+@..CC..S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S..CC..@
+@E.CC.S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S@S.CC.E@
+@..CC..S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S..CC..@
+@E...............................................................................E@
+@....CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC....@
+@E...CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC..CCC...E@
+@.................................................................................@
+@@.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.E.@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

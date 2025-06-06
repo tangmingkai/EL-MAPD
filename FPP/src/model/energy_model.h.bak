@@ -1,0 +1,35 @@
+#pragma once
+#include "env/environment.h"
+#include "common/agent.h"
+#include "model/action_model.h"
+class EnergyModel {
+ public:
+  EnergyModel(const Environment& env, int idle_comsumption,
+              int active_unloaded_comsumption, int active_loaded_comsumption,
+              int charge_energy_per_timestep, int full_energy)
+      : env_(env),
+        idle_comsumption_(idle_comsumption),
+        active_unloaded_comsumption_(active_unloaded_comsumption),
+        active_loaded_comsumption_(active_loaded_comsumption),
+        charge_energy_per_timestep_(charge_energy_per_timestep),
+        full_energy_(full_energy) {}
+
+  const std::list<std::tuple<std::string, int, int, int>>& errors() const {
+    return errors_;
+  }
+
+  bool IsValid(const vector<Agent>& agents,
+               const vector<Action>& actions) const;
+  int NextEnergy(const Agent& agent, const Action& action) const;
+  int NextEnergy(const int& loc, const bool& is_loaded,
+                 const int& original_energy, const Action& action) const;
+
+ private:
+  const Environment& env_;
+  int idle_comsumption_;
+  int active_unloaded_comsumption_;
+  int active_loaded_comsumption_;
+  int charge_energy_per_timestep_;
+  int full_energy_;
+  mutable std::list<std::tuple<std::string, int, int, int>> errors_;
+};

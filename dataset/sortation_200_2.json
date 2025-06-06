@@ -1,0 +1,12 @@
+{
+    "mapFile": "maps/sortation_with_264_charge.map",
+    "agentFile": "agents/sortation_200_2.agents",
+    "teamSize": 200,
+    "taskFile": "tasks/sortation_200_2.task",
+    "idleComsumption": 10,
+    "activeUnloadedComsumption": 13,
+    "activeLoadedComsumption": 18,
+    "chargeEnergyPerTimestep": 226,
+    "fullEnergy": 10000,
+    "pIdle": 0.0
+}

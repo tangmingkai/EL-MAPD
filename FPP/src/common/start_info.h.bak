@@ -1,0 +1,10 @@
+#pragma once
+
+struct StartInfo {
+  StartInfo() = default;
+  StartInfo(int loc, int orient, int energy):
+  loc(loc), orient(orient), energy(energy) {}
+  int loc;
+  int orient;
+  int energy;
+};

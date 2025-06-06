@@ -1,0 +1,12 @@
+{
+    "mapFile": "maps/kiva_with_113_charge.map",
+    "agentFile": "agents/kiva_50_0.agents",
+    "teamSize": 50,
+    "taskFile": "tasks/kiva_50_0.task",
+    "idleComsumption": 10,
+    "activeUnloadedComsumption": 13,
+    "activeLoadedComsumption": 18,
+    "chargeEnergyPerTimestep": 226,
+    "fullEnergy": 10000,
+    "pIdle": 0.0
+}
